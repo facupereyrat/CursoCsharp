@@ -1,6 +1,6 @@
 ﻿namespace CursoCsharp
 {
-    partial class Form1
+    partial class Frm1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -44,15 +44,16 @@
             this.lblHolamundo.Text = "Hola mundo";
             this.lblHolamundo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblHolamundo);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Frm1";
+            this.Text = "Estoy en el Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
