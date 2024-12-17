@@ -15,9 +15,9 @@ namespace CursoCsharp.OperadoresAritmeticos
         {
             InitializeComponent();
         }
-        int numero1;
-        int numero2;
-        int resultado;
+        double numero1;
+        double numero2;
+        double resultado;
         private void FrmOpAritmeticos_Load(object sender, EventArgs e)
         {
 
@@ -32,6 +32,32 @@ namespace CursoCsharp.OperadoresAritmeticos
             numero1 = Convert.ToInt32(txtnumero1.Text);
             numero2 = Convert.ToInt32(txtnumero2.Text);
             resultado = numero1 + numero2;
+            txtresultado.Text = resultado.ToString();
+        }
+
+        private void btnresta_Click(object sender, EventArgs e)
+        {
+            Resta();
+        }
+        private void Resta()
+        {
+            numero1 = Convert.ToInt32(txtnumero1.Text);
+            numero2 = Convert.ToInt32(txtnumero2.Text);
+            resultado = numero1 - numero2;
+            txtresultado.Text = resultado.ToString();
+        }
+        private void btnmultiplicar_Click(object sender, EventArgs e)
+        {
+            numero1 = Convert.ToInt32(txtnumero1.Text);
+            numero2 = Convert.ToInt32(txtnumero2.Text);
+            resultado = numero1 * numero2;
+            txtresultado.Text = resultado.ToString();
+        }
+        private void btndividir_Click(object sender, EventArgs e)
+        {
+            numero1 = Convert.ToInt32(txtnumero1.Text);
+            numero2 = Convert.ToInt32(txtnumero2.Text);
+            resultado = numero1 / numero2;
             txtresultado.Text = resultado.ToString();
         }
     }

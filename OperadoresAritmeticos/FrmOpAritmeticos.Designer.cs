@@ -38,6 +38,11 @@
             this.lblresultado = new System.Windows.Forms.Label();
             this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnresta = new System.Windows.Forms.Button();
+            this.btnmultiplicar = new System.Windows.Forms.Button();
+            this.btndivision = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSuma
@@ -45,7 +50,7 @@
             this.btnSuma.BackColor = System.Drawing.Color.Yellow;
             this.btnSuma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuma.Location = new System.Drawing.Point(166, 199);
+            this.btnSuma.Location = new System.Drawing.Point(3, 3);
             this.btnSuma.Name = "btnSuma";
             this.btnSuma.Size = new System.Drawing.Size(56, 38);
             this.btnSuma.TabIndex = 0;
@@ -140,12 +145,63 @@
             this.panel3.Size = new System.Drawing.Size(200, 2);
             this.panel3.TabIndex = 4;
             // 
+            // btnresta
+            // 
+            this.btnresta.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnresta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnresta.Location = new System.Drawing.Point(65, 3);
+            this.btnresta.Name = "btnresta";
+            this.btnresta.Size = new System.Drawing.Size(56, 38);
+            this.btnresta.TabIndex = 0;
+            this.btnresta.Text = "-";
+            this.btnresta.UseVisualStyleBackColor = false;
+            this.btnresta.Click += new System.EventHandler(this.btnresta_Click);
+            // 
+            // btnmultiplicar
+            // 
+            this.btnmultiplicar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnmultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmultiplicar.Location = new System.Drawing.Point(127, 3);
+            this.btnmultiplicar.Name = "btnmultiplicar";
+            this.btnmultiplicar.Size = new System.Drawing.Size(56, 38);
+            this.btnmultiplicar.TabIndex = 0;
+            this.btnmultiplicar.Text = "*";
+            this.btnmultiplicar.UseVisualStyleBackColor = false;
+            this.btnmultiplicar.Click += new System.EventHandler(this.btnmultiplicar_Click);
+            // 
+            // btndivision
+            // 
+            this.btndivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btndivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndivision.Location = new System.Drawing.Point(189, 3);
+            this.btndivision.Name = "btndivision";
+            this.btndivision.Size = new System.Drawing.Size(56, 38);
+            this.btndivision.TabIndex = 0;
+            this.btndivision.Text = "/";
+            this.btndivision.UseVisualStyleBackColor = false;
+            this.btndivision.Click += new System.EventHandler(this.btndividir_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.btnSuma);
+            this.flowLayoutPanel1.Controls.Add(this.btnresta);
+            this.flowLayoutPanel1.Controls.Add(this.btnmultiplicar);
+            this.flowLayoutPanel1.Controls.Add(this.btndivision);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(171, 175);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 45);
+            this.flowLayoutPanel1.TabIndex = 5;
+            // 
             // FrmOpAritmeticos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(10)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.txtnumero2);
             this.Controls.Add(this.txtresultado);
             this.Controls.Add(this.txtnumero1);
@@ -155,12 +211,12 @@
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.lblnumero2);
             this.Controls.Add(this.lblnumero1);
-            this.Controls.Add(this.btnSuma);
             this.Font = new System.Drawing.Font("Consolas", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmOpAritmeticos";
             this.Text = "FrmOpAritmeticos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmOpAritmeticos_Load);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +234,9 @@
         private System.Windows.Forms.Label lblresultado;
         private System.Windows.Forms.TextBox txtnumero2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnresta;
+        private System.Windows.Forms.Button btnmultiplicar;
+        private System.Windows.Forms.Button btndivision;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
