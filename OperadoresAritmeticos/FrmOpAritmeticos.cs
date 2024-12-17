@@ -25,10 +25,15 @@ namespace CursoCsharp.OperadoresAritmeticos
 
         private void btnSuma_Click(object sender, EventArgs e)
         {
+            Suma();
+        }
+        private void Suma()
+        {
             numero1 = Convert.ToInt32(txtnumero1.Text);
             numero2 = Convert.ToInt32(txtnumero2.Text);
-
-
+            resultado = numero1 + numero2;
+            txtresultado.Text = resultado.ToString();
         }
     }
 }
+

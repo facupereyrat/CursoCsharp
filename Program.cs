@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using CursoCsharp.OperadoresAritmeticos;
 
 namespace CursoCsharp
 {
@@ -15,7 +16,7 @@ namespace CursoCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm1());
+            Application.Run(new FrmOpAritmeticos());
         }
     }
 }

@@ -159,6 +159,7 @@
             this.Font = new System.Drawing.Font("Consolas", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmOpAritmeticos";
             this.Text = "FrmOpAritmeticos";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmOpAritmeticos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
