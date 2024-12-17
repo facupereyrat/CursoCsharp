@@ -29,10 +29,17 @@ namespace CursoCsharp.OperadoresAritmeticos
         }
         private void Suma()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
-            resultado = numero1 + numero2;
-            txtresultado.Text = resultado.ToString();
+            try
+            {
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
+                resultado = numero1 + numero2;
+                txtresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
         }
 
         private void btnresta_Click(object sender, EventArgs e)
@@ -41,22 +48,22 @@ namespace CursoCsharp.OperadoresAritmeticos
         }
         private void Resta()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
             resultado = numero1 - numero2;
             txtresultado.Text = resultado.ToString();
         }
         private void btnmultiplicar_Click(object sender, EventArgs e)
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
             resultado = numero1 * numero2;
             txtresultado.Text = resultado.ToString();
         }
         private void btndividir_Click(object sender, EventArgs e)
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
+            numero1 = Convert.ToDouble(txtnumero1.Text);
+            numero2 = Convert.ToDouble(txtnumero2.Text);
             resultado = numero1 / numero2;
             txtresultado.Text = resultado.ToString();
         }
