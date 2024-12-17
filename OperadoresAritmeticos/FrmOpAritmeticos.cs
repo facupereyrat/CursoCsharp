@@ -31,8 +31,12 @@ namespace CursoCsharp.OperadoresAritmeticos
         {
             try
             {
+
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
                 numero1 = Convert.ToDouble(txtnumero1.Text);
                 numero2 = Convert.ToDouble(txtnumero2.Text);
+
                 resultado = numero1 + numero2;
                 txtresultado.Text = resultado.ToString();
             }

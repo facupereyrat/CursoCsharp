@@ -190,9 +190,9 @@
             this.flowLayoutPanel1.Controls.Add(this.btnresta);
             this.flowLayoutPanel1.Controls.Add(this.btnmultiplicar);
             this.flowLayoutPanel1.Controls.Add(this.btndivision);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(171, 175);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(178, 175);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 45);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(248, 45);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // FrmOpAritmeticos
