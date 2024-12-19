@@ -89,6 +89,7 @@
             this.txtnumero1.Name = "txtnumero1";
             this.txtnumero1.Size = new System.Drawing.Size(200, 13);
             this.txtnumero1.TabIndex = 3;
+            this.txtnumero1.TextChanged += new System.EventHandler(this.txtnumero1_TextChanged);
             // 
             // panel1
             // 
