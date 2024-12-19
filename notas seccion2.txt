@@ -14,3 +14,11 @@ catch: Este bloque contiene el código que se ejecuta cuando se produce una excep
 Las sentencias if y else son fundamentales para tomar decisiones basadas en condiciones. 
 Son parte de las estructuras de control que permiten ejecutar diferentes bloques de código según se cumplan o no ciertas condiciones. 
 Aquí tienes una explicación básica:
+
+Operadores relacionales
+==	Igual a	
+!=	Diferente de
+>	Mayor que
+<	Menor que	
+>=	Mayor o igual que	
+<=	Menor o igual que	
