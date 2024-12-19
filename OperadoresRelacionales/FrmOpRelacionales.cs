@@ -44,5 +44,95 @@ namespace CursoCsharp.OperadoresRelacionales
         {
 
         }
+
+        private void btnmenor_Click(object sender, EventArgs e)
+        {
+            Menorque();
+        }
+        private void Menorque()
+        {
+            asignacion();
+            if (numero1 < numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+            txtresultado.Text = resultado.ToString();
+        }
+
+        private void btnmenorigual_Click(object sender, EventArgs e)
+        {
+            Menorigual();
+        }
+        private void Menorigual()
+        {
+            asignacion();
+            if (numero1 <= numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+            txtresultado.Text = resultado.ToString();
+        }
+
+        private void btnmayorigual_Click(object sender, EventArgs e)
+        {
+            Mayorigual();
+        }
+        private void Mayorigual()
+        {
+            asignacion();
+            if (numero1 >= numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+            txtresultado.Text = resultado.ToString();
+        }
+
+        private void btnigual_Click(object sender, EventArgs e)
+        {
+            Igual();
+        }
+        private void Igual()
+        {
+            asignacion();
+            if (numero1 == numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+            txtresultado.Text = resultado.ToString();
+        }
+
+        private void btndiferente_Click(object sender, EventArgs e)
+        {
+            Diferente();    
+        }
+        private void Diferente()
+        {
+            asignacion();
+            if (numero1 != numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+            txtresultado.Text = resultado.ToString();
+        }
     }
 }

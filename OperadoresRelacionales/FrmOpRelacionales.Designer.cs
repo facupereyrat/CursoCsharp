@@ -85,6 +85,7 @@
             this.btnmenor.TabIndex = 0;
             this.btnmenor.Text = "<";
             this.btnmenor.UseVisualStyleBackColor = false;
+            this.btnmenor.Click += new System.EventHandler(this.btnmenor_Click);
             // 
             // btnmenorigual
             // 
@@ -97,6 +98,7 @@
             this.btnmenorigual.TabIndex = 0;
             this.btnmenorigual.Text = "<=";
             this.btnmenorigual.UseVisualStyleBackColor = false;
+            this.btnmenorigual.Click += new System.EventHandler(this.btnmenorigual_Click);
             // 
             // btnmayorigual
             // 
@@ -109,6 +111,7 @@
             this.btnmayorigual.TabIndex = 0;
             this.btnmayorigual.Text = ">=";
             this.btnmayorigual.UseVisualStyleBackColor = false;
+            this.btnmayorigual.Click += new System.EventHandler(this.btnmayorigual_Click);
             // 
             // btnigual
             // 
@@ -121,6 +124,7 @@
             this.btnigual.TabIndex = 1;
             this.btnigual.Text = "==";
             this.btnigual.UseVisualStyleBackColor = false;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // btndiferente
             // 
@@ -133,6 +137,7 @@
             this.btndiferente.TabIndex = 2;
             this.btndiferente.Text = "!=";
             this.btndiferente.UseVisualStyleBackColor = false;
+            this.btndiferente.Click += new System.EventHandler(this.btndiferente_Click);
             // 
             // txtnumero2
             // 
