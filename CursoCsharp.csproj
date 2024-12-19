@@ -56,6 +56,12 @@
     <Compile Include="OperadoresAritmeticos\FrmOpAritmeticos.Designer.cs">
       <DependentUpon>FrmOpAritmeticos.cs</DependentUpon>
     </Compile>
+    <Compile Include="OperadoresRelacionales\FrmOpRelacionales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperadoresRelacionales\FrmOpRelacionales.Designer.cs">
+      <DependentUpon>FrmOpRelacionales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -63,6 +69,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresAritmeticos\FrmOpAritmeticos.resx">
       <DependentUpon>FrmOpAritmeticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperadoresRelacionales\FrmOpRelacionales.resx">
+      <DependentUpon>FrmOpRelacionales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,5 +95,6 @@
   <ItemGroup>
     <Content Include="notas.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

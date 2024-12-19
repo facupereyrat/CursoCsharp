@@ -11,3 +11,6 @@ try y catch permiten que el programa continúe ejecutándose de manera controlada.
 Si ocurre una excepción dentro del bloque try, el flujo del programa se transfiere al bloque catch correspondiente.
 catch: Este bloque contiene el código que se ejecuta cuando se produce una excepción en el bloque try.
 
+Las sentencias if y else son fundamentales para tomar decisiones basadas en condiciones. 
+Son parte de las estructuras de control que permiten ejecutar diferentes bloques de código según se cumplan o no ciertas condiciones. 
+Aquí tienes una explicación básica:
