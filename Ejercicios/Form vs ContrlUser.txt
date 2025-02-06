@@ -1,0 +1,9 @@
+Windows Forms
+Plataforma para crear aplicaciones de escritorio en .NET con controles predefinidos.
+Crear interfaces gráficas de usuario
+
+Control de Usuario
+Componente personalizado que combina controles existentes de Windows Forms.
+Crear componentes reutilizables para múltiples formularios o aplicaciones.
+
+La variabla "show es arrancar"... para show dialog le corregimos la funcion de esconder pantalla

@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicios\E1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\E1.Designer.cs">
+      <DependentUpon>E1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios\Menuprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Menuprincipal.Designer.cs">
+      <DependentUpon>Menuprincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +74,12 @@
     <Compile Include="OperadoresAritmeticos\FrmOpAritmeticos.Designer.cs">
       <DependentUpon>FrmOpAritmeticos.cs</DependentUpon>
     </Compile>
+    <Compile Include="OperadoresLogicos\frmOperadoresLogicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperadoresLogicos\frmOperadoresLogicos.Designer.cs">
+      <DependentUpon>frmOperadoresLogicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="OperadoresRelacionales\FrmOpRelacionales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +88,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicios\Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\Menuprincipal.resx">
+      <DependentUpon>Menuprincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresAritmeticos\FrmOpAritmeticos.resx">
       <DependentUpon>FrmOpAritmeticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperadoresLogicos\frmOperadoresLogicos.resx">
+      <DependentUpon>frmOperadoresLogicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresRelacionales\FrmOpRelacionales.resx">
       <DependentUpon>FrmOpRelacionales.cs</DependentUpon>
@@ -93,7 +126,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="notas seccion2.txt" />
+    <Content Include="Ejercicios\Form vs ContrlUser.txt" />
+    <Content Include="OperadoresLogicos\Notas op logic.txt" />
+    <Content Include="OperadoresRelacionales\notas seccion2.txt" />
+    <Content Include="OperadoresAritmeticos\Notas.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

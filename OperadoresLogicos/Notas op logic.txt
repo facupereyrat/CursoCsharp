@@ -1,0 +1,6 @@
+Los operadores lógicos en C# se utilizan para realizar operaciones lógicas, 
+que son fundamentales en la toma de decisiones y en la evaluación de condiciones.
+
+&& = Y
+|| = O
+! = Negacion
