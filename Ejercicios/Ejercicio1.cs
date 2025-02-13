@@ -15,5 +15,26 @@ namespace CursoCsharp.Ejercicios
         {
             InitializeComponent();
         }
+        double a;
+        double b;
+        double c;
+        double resultado;
+        public string titulo;
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            AsignarDatos();
+            Calcular();
+        }
+        private void AsignarDatos()
+        {
+            a = Convert.ToDouble(txta.Text);
+            b = Convert.ToDouble(txtb.Text);
+            c = Convert.ToDouble(txtc.Text);
+        }
+        private void Calcular()
+        {
+            resultado = ((c + 5) * (Math.Pow(b, 2) - 3 * a * c) * Math.Pow(a, 2)) / (4 * a);
+            txtresultado.Text = resultado.ToString();
+        }
     }
 }

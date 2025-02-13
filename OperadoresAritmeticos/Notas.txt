@@ -31,3 +31,5 @@ int a = 5;
 int b = 3;
 int resultado = a % b; // resultado es 2
 Estos operadores son esenciales para cualquier tipo de cálculo en C#
+
+docksttyle.fill hace que la ventana apareza extendida

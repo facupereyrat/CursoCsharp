@@ -1,4 +1,7 @@
-﻿namespace CursoCsharp.Ejercicios
+﻿using System;
+using System.Windows.Forms;
+
+namespace CursoCsharp.Ejercicios
 {
     partial class Menuprincipal
     {
@@ -32,6 +35,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnE1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.panelVisor = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -81,12 +85,22 @@
             this.label1.Text = "Ejercicios";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panelVisor
+            // 
+            this.panelVisor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelVisor.Location = new System.Drawing.Point(184, 0);
+            this.panelVisor.Name = "panelVisor";
+            this.panelVisor.Size = new System.Drawing.Size(616, 450);
+            this.panelVisor.TabIndex = 1;
+            this.panelVisor.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
             // Menuprincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelVisor);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Consolas", 8.25F);
             this.Name = "Menuprincipal";
@@ -103,5 +117,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnE1;
+        private System.Windows.Forms.Panel panelVisor;
     }
 }

@@ -18,10 +18,22 @@ namespace CursoCsharp.Ejercicios
             InitializeComponent();
         }
 
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void btnE1_Click(object sender, EventArgs e)
         {
-            E1 frm = new E1();
-            frm.ShowDialog();
+            Ejercicio1();
+        }
+
+        private void Ejercicio1()
+        {
+            Ejercicio1 ctl = new Ejercicio1();
+            ctl.Dock = DockStyle.Fill;
+            panelVisor.Controls.Add(ctl);
+            ctl.Show();
         }
     }
 }

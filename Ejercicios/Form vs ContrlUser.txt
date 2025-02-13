@@ -7,3 +7,5 @@ Componente personalizado que combina controles existentes de Windows Forms.
 Crear componentes reutilizables para múltiples formularios o aplicaciones.
 
 La variabla "show es arrancar"... para show dialog le corregimos la funcion de esconder pantalla
+
+(variable Math se usa cuando programamos en matematicas, Pow para elevar potencias (math.pow(b,2))esto dice que b se eleva a la 2)
