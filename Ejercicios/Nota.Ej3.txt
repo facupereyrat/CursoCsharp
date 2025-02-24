@@ -1,0 +1,4 @@
+las estructuras condicionales te permiten ejecutar diferentes bloques de código en función de una condición específica.
+if ejecuta un bloque de código si una condición es verdadera.
+if-else ejecuta un bloque de código si una condición es verdadera y otro bloque si es falsa.
+switch es útil cuando tienes varias condiciones posibles y quieres ejecutar diferentes bloques de código en función del valor de una variable.

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -47,6 +48,20 @@ namespace CursoCsharp.Ejercicios
             panelVisor.Controls.Clear();
             Ejercicio2 ctl = new Ejercicio2();
             ctl.titulo = btnE2.Text;
+            ctl.Dock = DockStyle.Fill;
+            panelVisor.Controls.Add(ctl);
+            ctl.Show();
+        }
+
+        private void btnE3_Click(object sender, EventArgs e)
+        {
+            Ejercicio3();
+        }
+        private void Ejercicio3()
+        {
+            panelVisor.Controls.Clear();
+            Ejercicio3 ctl = new Ejercicio3();
+            ctl.titulo = btnE3.Text;
             ctl.Dock = DockStyle.Fill;
             panelVisor.Controls.Add(ctl);
             ctl.Show();
