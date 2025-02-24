@@ -56,6 +56,12 @@
     <Compile Include="Ejercicios\Ejercicio2.Designer.cs">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios\Ejercicio3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio3.Designer.cs">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicios\Menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Ejercicio2.resx">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\Ejercicio3.resx">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
@@ -135,6 +144,7 @@
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />
     <Content Include="OperadoresAritmeticos\Notas.txt" />
+    <None Include="Resources\Ejercicio 3.png" />
     <None Include="Resources\Ejercicio 2.png" />
     <None Include="Resources\Ejercicio1.png" />
   </ItemGroup>
