@@ -63,6 +63,16 @@ namespace CursoCsharp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ejercicio_2 {
+            get {
+                object obj = ResourceManager.GetObject("Ejercicio 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ejercicio1 {
             get {
                 object obj = ResourceManager.GetObject("Ejercicio1", resourceCulture);

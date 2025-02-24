@@ -32,6 +32,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtresultado = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblresultado = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.txtc = new System.Windows.Forms.TextBox();
             this.txtb = new System.Windows.Forms.TextBox();
@@ -39,12 +45,6 @@
             this.lblc = new System.Windows.Forms.Label();
             this.lblb = new System.Windows.Forms.Label();
             this.lbla = new System.Windows.Forms.Label();
-            this.txtresultado = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lblresultado = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -102,6 +102,59 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(706, 216);
             this.panel1.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Location = new System.Drawing.Point(188, 75);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 2);
+            this.panel5.TabIndex = 10;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(188, 109);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 2);
+            this.panel4.TabIndex = 10;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(188, 148);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 2);
+            this.panel2.TabIndex = 10;
+            // 
+            // txtresultado
+            // 
+            this.txtresultado.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtresultado.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtresultado.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtresultado.Location = new System.Drawing.Point(268, 173);
+            this.txtresultado.Name = "txtresultado";
+            this.txtresultado.Size = new System.Drawing.Size(200, 13);
+            this.txtresultado.TabIndex = 8;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(268, 188);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 2);
+            this.panel3.TabIndex = 9;
+            // 
+            // lblresultado
+            // 
+            this.lblresultado.AutoSize = true;
+            this.lblresultado.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.ForeColor = System.Drawing.Color.White;
+            this.lblresultado.Location = new System.Drawing.Point(152, 168);
+            this.lblresultado.Name = "lblresultado";
+            this.lblresultado.Size = new System.Drawing.Size(110, 22);
+            this.lblresultado.TabIndex = 7;
+            this.lblresultado.Text = "Resultado:";
             // 
             // btnCalcular
             // 
@@ -178,59 +231,6 @@
             this.lbla.Size = new System.Drawing.Size(30, 22);
             this.lbla.TabIndex = 3;
             this.lbla.Text = "a:";
-            // 
-            // txtresultado
-            // 
-            this.txtresultado.BackColor = System.Drawing.SystemColors.InfoText;
-            this.txtresultado.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtresultado.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txtresultado.Location = new System.Drawing.Point(268, 173);
-            this.txtresultado.Name = "txtresultado";
-            this.txtresultado.Size = new System.Drawing.Size(200, 13);
-            this.txtresultado.TabIndex = 8;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(268, 188);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 2);
-            this.panel3.TabIndex = 9;
-            // 
-            // lblresultado
-            // 
-            this.lblresultado.AutoSize = true;
-            this.lblresultado.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.ForeColor = System.Drawing.Color.White;
-            this.lblresultado.Location = new System.Drawing.Point(152, 168);
-            this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(110, 22);
-            this.lblresultado.TabIndex = 7;
-            this.lblresultado.Text = "Resultado:";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(188, 148);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 2);
-            this.panel2.TabIndex = 10;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(188, 109);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 2);
-            this.panel4.TabIndex = 10;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Location = new System.Drawing.Point(188, 75);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 2);
-            this.panel5.TabIndex = 10;
             // 
             // Ejercicio1
             // 

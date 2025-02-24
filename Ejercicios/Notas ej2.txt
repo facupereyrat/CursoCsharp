@@ -1,0 +1,15 @@
+Variable Math.PI para trabajar en matematicas con pi, es una propiedad para poder utilizarlo
+Sqrt aplica raiz cuadrada de un numero especificado (siempre con un Math previo)
+
+El método .ToString() se utiliza en C# y en muchos otros lenguajes de programación 
+para convertir un objeto a su representación en forma de cadena (string)
+
+Visualización de Datos: Cuando necesitas mostrar el valor de un objeto en la consola, 
+en una interfaz de usuario, o en un mensaje de registro.
+
+(int numero = 123;
+Console.WriteLine(numero.ToString()); // Salida: "123")
+
+N2 dentro de los parenstesis Sirve para darle un formato ya que el resultado sin el mismo seria un total, 
+lo que haria un numero demasiado largo , si queremos manejar mas decimales incrementamos el numero
+ejemplo N4,N6 y asi sucesivamente (decimales)

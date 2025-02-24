@@ -50,6 +50,12 @@
     <Compile Include="Ejercicios\Ejercicio1.Designer.cs">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios\Ejercicio2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicios\Menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejercicios\Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
@@ -122,9 +131,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ejercicios\Form vs ContrlUser.txt" />
+    <Content Include="Ejercicios\Notas ej2.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />
     <Content Include="OperadoresAritmeticos\Notas.txt" />
+    <None Include="Resources\Ejercicio 2.png" />
     <None Include="Resources\Ejercicio1.png" />
   </ItemGroup>
   <ItemGroup />
