@@ -6,6 +6,7 @@ using CursoCsharp.OperadoresAritmeticos;
 using CursoCsharp.OperadoresRelacionales;
 using CursoCsharp.OperadoresLogicos;
 using CursoCsharp.Ejercicios;
+using CursoCsharp.Condicionales;
 
 namespace CursoCsharp
 {
@@ -19,7 +20,7 @@ namespace CursoCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menuprincipal());
+            Application.Run(new Frmcondicionales());
         }
     }
 }
