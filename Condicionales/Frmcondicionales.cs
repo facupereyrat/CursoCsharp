@@ -27,11 +27,11 @@ namespace CursoCsharp.Condicionales
             {
                 lblresultado.Text = "Es un numero positivo";
             }
-            if(numero==0)
+            else if(numero==0)
             {
                 lblresultado.Text = "Es un valor 0";
             }
-            if (numero>0)
+            else
             {
                 lblresultado.Text = "Es un numero nevativo";
             }
