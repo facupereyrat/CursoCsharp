@@ -33,7 +33,7 @@ namespace CursoCsharp.Condicionales
             }
             else
             {
-                lblresultado.Text = "Es un numero nevativo";
+                lblresultado.Text = "Es un numero negativo";
             }
         }
         private void Asignarvalores()

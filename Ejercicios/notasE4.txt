@@ -1,0 +1,13 @@
+Asignaciones varias.
+Asignación simple (=): La asignación más básica. Se usa para asignar un valor a una variable
+Asignación compuesta (+=, -=, *=, /=, %=): Estas asignaciones realizan una operación aritmética y luego asignan el resultado a la misma variable
+\r\n realiza un salto de linea en las variables
+
+Concatenar significa unir dos o más cadenas de texto para formar una sola. Imagina que tienes dos piezas de un rompecabezas, 
+y al juntarlas, formas una imagen completa. En programación, esto se hace uniendo cadenas de caracteres.
+
+Ejemplo en lenguaje cotidiano
+Supón que tienes dos palabras: "Hola" y "Mundo". Al concatenarlas, obtienes "HolaMundo".
+
+Ejemplo en C#
+En C#, puedes concatenar cadenas usando el operador + o métodos específicos de la clase String

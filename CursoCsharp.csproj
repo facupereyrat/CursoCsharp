@@ -106,6 +106,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Captura de pantalla 2025-02-26 210414.png" />
     <EmbeddedResource Include="Condicionales\Frmcondicionales.resx">
       <DependentUpon>Frmcondicionales.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +161,7 @@
   <ItemGroup>
     <Content Include="Ejercicios\Form vs ContrlUser.txt" />
     <Content Include="Ejercicios\Notas ej2.txt" />
+    <Content Include="Ejercicios\notasE4.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />
     <Content Include="OperadoresAritmeticos\Notas.txt" />

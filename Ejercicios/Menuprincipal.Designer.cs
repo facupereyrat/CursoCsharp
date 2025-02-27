@@ -35,9 +35,10 @@ namespace CursoCsharp.Ejercicios
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnE1 = new System.Windows.Forms.Button();
             this.btnE2 = new System.Windows.Forms.Button();
+            this.btnE3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelVisor = new System.Windows.Forms.Panel();
-            this.btnE3 = new System.Windows.Forms.Button();
+            this.btnE4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +58,7 @@ namespace CursoCsharp.Ejercicios
             this.flowLayoutPanel1.Controls.Add(this.btnE1);
             this.flowLayoutPanel1.Controls.Add(this.btnE2);
             this.flowLayoutPanel1.Controls.Add(this.btnE3);
+            this.flowLayoutPanel1.Controls.Add(this.btnE4);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 40);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -91,6 +93,20 @@ namespace CursoCsharp.Ejercicios
             this.btnE2.UseVisualStyleBackColor = false;
             this.btnE2.Click += new System.EventHandler(this.btnE2_Click_1);
             // 
+            // btnE3
+            // 
+            this.btnE3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnE3.FlatAppearance.BorderSize = 0;
+            this.btnE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE3.Font = new System.Drawing.Font("Consolas", 14F);
+            this.btnE3.Location = new System.Drawing.Point(3, 191);
+            this.btnE3.Name = "btnE3";
+            this.btnE3.Size = new System.Drawing.Size(167, 100);
+            this.btnE3.TabIndex = 2;
+            this.btnE3.Text = "Ejercicio 3\r\n(Operadores logicos relacionales)";
+            this.btnE3.UseVisualStyleBackColor = false;
+            this.btnE3.Click += new System.EventHandler(this.btnE3_Click);
+            // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -112,19 +128,19 @@ namespace CursoCsharp.Ejercicios
             this.panelVisor.TabIndex = 1;
             this.panelVisor.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // btnE3
+            // btnE4
             // 
-            this.btnE3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnE3.FlatAppearance.BorderSize = 0;
-            this.btnE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnE3.Font = new System.Drawing.Font("Consolas", 14F);
-            this.btnE3.Location = new System.Drawing.Point(3, 191);
-            this.btnE3.Name = "btnE3";
-            this.btnE3.Size = new System.Drawing.Size(167, 100);
-            this.btnE3.TabIndex = 2;
-            this.btnE3.Text = "Ejercicio 3\r\n(Operadores logicos relacionales)";
-            this.btnE3.UseVisualStyleBackColor = false;
-            this.btnE3.Click += new System.EventHandler(this.btnE3_Click);
+            this.btnE4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnE4.FlatAppearance.BorderSize = 0;
+            this.btnE4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE4.Font = new System.Drawing.Font("Consolas", 14F);
+            this.btnE4.Location = new System.Drawing.Point(3, 297);
+            this.btnE4.Name = "btnE4";
+            this.btnE4.Size = new System.Drawing.Size(167, 100);
+            this.btnE4.TabIndex = 3;
+            this.btnE4.Text = "Ejercicio 4\r\n(Condicional if)";
+            this.btnE4.UseVisualStyleBackColor = false;
+            this.btnE4.Click += new System.EventHandler(this.btnE4_Click);
             // 
             // Menuprincipal
             // 
@@ -152,5 +168,6 @@ namespace CursoCsharp.Ejercicios
         private System.Windows.Forms.Panel panelVisor;
         private Button btnE2;
         private Button btnE3;
+        private Button btnE4;
     }
 }
