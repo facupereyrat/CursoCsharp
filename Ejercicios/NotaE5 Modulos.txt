@@ -1,0 +1,44 @@
+¡Claro! Para determinar si un número es par o impar en C#, puedes utilizar el operador de módulo (%). Este operador devuelve el resto de una división. 
+Si el resto de dividir un número por 2 es 0, entonces el número es par; de lo contrario, es impar.
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Array de números de ejemplo
+        int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        // Recorre cada número en el array
+        foreach (int numero in numeros)
+        {
+            // Comprueba si el número es par o impar usando el operador de módulo
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine($"{numero} es par");
+            }
+            else
+            {
+                Console.WriteLine($"{numero} es impar");
+            }
+        }
+    }
+}
+Se crea un array de números.
+
+Se recorre cada número del array.
+
+Se utiliza el operador de módulo (%) para comprobar si el número es par o impar.
+
+Se imprime en la consola si el número es par o impar.
+
+1 es impar
+2 es par
+3 es impar
+4 es par
+5 es impar
+6 es par
+7 es impar
+8 es par
+9 es impar
+10 es par

@@ -74,6 +74,12 @@
     <Compile Include="Ejercicios\Ejercicio4.Designer.cs">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios\Ejercicio5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio5.Designer.cs">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicios\Menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Captura de pantalla 2025-02-27 180744.png" />
     <None Include="Resources\Captura de pantalla 2025-02-26 210414.png" />
     <EmbeddedResource Include="Condicionales\Frmcondicionales.resx">
       <DependentUpon>Frmcondicionales.cs</DependentUpon>
@@ -121,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Ejercicio4.resx">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\Ejercicio5.resx">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
@@ -160,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ejercicios\Form vs ContrlUser.txt" />
+    <Content Include="Ejercicios\NotaE5 Modulos.txt" />
     <Content Include="Ejercicios\Notas ej2.txt" />
     <Content Include="Ejercicios\notasE4.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />

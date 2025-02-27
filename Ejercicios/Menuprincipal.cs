@@ -80,5 +80,19 @@ namespace CursoCsharp.Ejercicios
             panelVisor.Controls.Add(ctl);
             ctl.Show();
         }
+
+        private void btnE5_Click(object sender, EventArgs e)
+        {
+            Ejercicio5();
+        }
+        private void Ejercicio5()
+        {
+            panelVisor.Controls.Clear();
+            Ejercicio5 ctl = new Ejercicio5();
+            ctl.titulo = btnE5.Text;
+            ctl.Dock = DockStyle.Fill;
+            panelVisor.Controls.Add(ctl);
+            ctl.Show();
+        }
     }
 }
