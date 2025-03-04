@@ -182,6 +182,7 @@
     <Content Include="Ejercicios\NotaE5 Modulos.txt" />
     <Content Include="Ejercicios\Notas ej2.txt" />
     <Content Include="Ejercicios\notasE4.txt" />
+    <Content Include="Listas\foreach.txt" />
     <Content Include="Listas\Notaseccionbucle,For.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />

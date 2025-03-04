@@ -29,9 +29,9 @@ namespace CursoCsharp.Listas
             nombres.Add("Carlos");
             nombres.Add("5"); 
             
-            for (int i=0;i<nombres.Count();i++)
+            foreach (string data in nombres )
             {
-                listadatos.Items.Add(nombres[i]);
+                listadatos.Items.Add(data);
             }
         }
     }
