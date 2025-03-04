@@ -1,0 +1,47 @@
+Un array (o arreglo) en C# es una estructura de datos que se utiliza para almacenar una colección fija de elementos del mismo tipo. 
+Es útil cuando necesitas trabajar con un grupo de datos relacionados de manera ordenada. A continuación, te doy un resumen sobre arrays en C#:
+
+Características principales de un array
+Índices: Los arrays son indexados, lo que significa que cada elemento tiene una posición o índice (comenzando desde 0).
+
+Tipo fijo: Todos los elementos de un array deben ser del mismo tipo (por ejemplo, int, string, etc.).
+
+Tamaño fijo: Una vez creado, el tamaño del array no puede cambiar.
+
+Declaración y creación de un array
+Puedes declarar y crear un array de varias formas:
+
+Declaración con inicialización explícita:
+
+csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+Declaración con el tamaño especificado:
+
+csharp
+int[] numeros = new int[5]; // Crea un array con 5 elementos
+numeros[0] = 10; // Asigna un valor al primer elemento
+Acceso a elementos
+Los elementos se acceden mediante sus índices:
+
+csharp
+Console.WriteLine(numeros[0]); // Imprime el primer elemento
+numeros[1] = 20; // Cambia el valor del segundo elemento
+Propiedades útiles
+Length: Devuelve la cantidad de elementos del array.
+
+csharp
+Console.WriteLine(numeros.Length); // Imprime el tamaño del array
+Recorrido de un array
+Puedes recorrer un array usando bucles como for o foreach:
+
+csharp
+int[] numeros = { 1, 2, 3, 4, 5 };
+
+foreach (int numero in numeros)
+{
+    Console.WriteLine(numero); // Imprime cada número
+}
+Ventajas de los arrays
+Son fáciles de usar y eficientes en términos de acceso.
+
+Útiles para trabajar con datos relacionados.

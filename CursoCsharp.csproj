@@ -92,11 +92,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Listas\Frmlistas.cs">
+    <Compile Include="Listas_Array\Frmlistas_arrays.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Listas\Frmlistas.Designer.cs">
-      <DependentUpon>Frmlistas.cs</DependentUpon>
+    <Compile Include="Listas_Array\Frmlistas_arrays.Designer.cs">
+      <DependentUpon>Frmlistas_arrays.cs</DependentUpon>
     </Compile>
     <Compile Include="OperadoresAritmeticos\FrmOpAritmeticos.cs">
       <SubType>Form</SubType>
@@ -144,8 +144,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listas\Frmlistas.resx">
-      <DependentUpon>Frmlistas.cs</DependentUpon>
+    <EmbeddedResource Include="Listas_Array\Frmlistas_arrays.resx">
+      <DependentUpon>Frmlistas_arrays.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresAritmeticos\FrmOpAritmeticos.resx">
       <DependentUpon>FrmOpAritmeticos.cs</DependentUpon>
@@ -182,8 +182,9 @@
     <Content Include="Ejercicios\NotaE5 Modulos.txt" />
     <Content Include="Ejercicios\Notas ej2.txt" />
     <Content Include="Ejercicios\notasE4.txt" />
-    <Content Include="Listas\foreach.txt" />
-    <Content Include="Listas\Notaseccionbucle,For.txt" />
+    <Content Include="Listas_Array\foreach.txt" />
+    <Content Include="Listas_Array\Matrices.txt" />
+    <Content Include="Listas_Array\Notaseccionbucle,For.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />
     <Content Include="OperadoresAritmeticos\Notas.txt" />
