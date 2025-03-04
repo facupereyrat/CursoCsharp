@@ -7,6 +7,7 @@ using CursoCsharp.OperadoresRelacionales;
 using CursoCsharp.OperadoresLogicos;
 using CursoCsharp.Ejercicios;
 using CursoCsharp.Condicionales;
+using CursoCsharp.Listas;
 
 namespace CursoCsharp
 {
@@ -20,7 +21,7 @@ namespace CursoCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menuprincipal());
+            Application.Run(new Frmlistas());
         }
     }
 }
