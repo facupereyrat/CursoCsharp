@@ -13,7 +13,9 @@ Por ejemplo:
 Si necesitas trabajar con palabras o frases, usarías string.
 
 Si solo necesitas almacenar un carácter único, char es ideal.
+
 |----------------------------------------------------------
+
 El método ToCharArray() en C# se utiliza para convertir una cadena (tipo string) en un arreglo de caracteres (tipo char[]). 
 Esto es útil cuando necesitas trabajar con cada carácter de una cadena de forma independiente, como realizar iteraciones, modificaciones o análisis específicos.
 
@@ -25,3 +27,22 @@ foreach (char c in caracteres)
     Console.WriteLine(c); // Esto imprimirá: H, o, l, a
 }
 Este método es práctico cuando quieres manipular o inspeccionar cada carácter por separado.
+
+|-----------------------------------------------------------
+
+El parámetro sender es comúnmente usado en eventos y delegados. 
+Representa el objeto que disparó o inició el evento. 
+En otras palabras, es una referencia al objeto que llamó al manejador del evento. 
+Esto es útil si necesitas identificar qué objeto específico activó un evento, especialmente si hay múltiples posibles desencadenantes.
+
+csharp
+private void MiBoton_Click(object sender, EventArgs e)
+{
+    Button boton = sender as Button; // Convertir el 'sender' al tipo Button
+    Console.WriteLine($"Se hizo clic en el botón: {boton.Text}");
+}
+Aquí:
+
+sender permite acceder al botón que desencadenó el evento Click.
+
+Es útil si quieres personalizar la respuesta al evento según el objeto específico.
