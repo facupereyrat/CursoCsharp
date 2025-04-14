@@ -43,5 +43,21 @@ namespace CursoCsharp.Listas
                 listadatos.Items.Add(data);
             }
         }
+
+        private void Frmlistas_arrays_Load(object sender, EventArgs e)
+        {
+            Dibujartecladonumerico();
+        }
+        private void Dibujartecladonumerico()
+        {
+            char[] numeros;
+            numeros = "0123456789".ToCharArray();
+            foreach(char numero in numeros)
+            {
+                Button btnnumero = new Button();
+                btnnumero.Text = numero.ToString();
+                panelnumerico.Controls.Add(btnnumero);
+            }
+        }
     }
 }
