@@ -184,6 +184,7 @@
     <Content Include="Ejercicios\notasE4.txt" />
     <Content Include="Listas_Array\foreach.txt" />
     <Content Include="Listas_Array\Matrices.txt" />
+    <Content Include="Listas_Array\notasarrays.txt" />
     <Content Include="Listas_Array\Notaseccionbucle,For.txt" />
     <Content Include="OperadoresLogicos\Notas op logic.txt" />
     <Content Include="OperadoresRelacionales\notas seccion2.txt" />
