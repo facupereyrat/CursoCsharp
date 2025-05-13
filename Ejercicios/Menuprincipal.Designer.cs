@@ -37,9 +37,10 @@ namespace CursoCsharp.Ejercicios
             this.btnE2 = new System.Windows.Forms.Button();
             this.btnE3 = new System.Windows.Forms.Button();
             this.btnE4 = new System.Windows.Forms.Button();
+            this.btnE5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelVisor = new System.Windows.Forms.Panel();
-            this.btnE5 = new System.Windows.Forms.Button();
+            this.btnE6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,7 @@ namespace CursoCsharp.Ejercicios
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(184, 450);
+            this.panel1.Size = new System.Drawing.Size(184, 459);
             this.panel1.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -61,10 +62,11 @@ namespace CursoCsharp.Ejercicios
             this.flowLayoutPanel1.Controls.Add(this.btnE3);
             this.flowLayoutPanel1.Controls.Add(this.btnE4);
             this.flowLayoutPanel1.Controls.Add(this.btnE5);
+            this.flowLayoutPanel1.Controls.Add(this.btnE6);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 40);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(184, 410);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(184, 419);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnE1
@@ -123,6 +125,20 @@ namespace CursoCsharp.Ejercicios
             this.btnE4.UseVisualStyleBackColor = false;
             this.btnE4.Click += new System.EventHandler(this.btnE4_Click);
             // 
+            // btnE5
+            // 
+            this.btnE5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnE5.FlatAppearance.BorderSize = 0;
+            this.btnE5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE5.Font = new System.Drawing.Font("Consolas", 10F);
+            this.btnE5.Location = new System.Drawing.Point(3, 292);
+            this.btnE5.Name = "btnE5";
+            this.btnE5.Size = new System.Drawing.Size(167, 59);
+            this.btnE5.TabIndex = 4;
+            this.btnE5.Text = "Ejercicio 5\r\n(Condicional if)";
+            this.btnE5.UseVisualStyleBackColor = false;
+            this.btnE5.Click += new System.EventHandler(this.btnE5_Click);
+            // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -140,30 +156,30 @@ namespace CursoCsharp.Ejercicios
             this.panelVisor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelVisor.Location = new System.Drawing.Point(184, 0);
             this.panelVisor.Name = "panelVisor";
-            this.panelVisor.Size = new System.Drawing.Size(616, 450);
+            this.panelVisor.Size = new System.Drawing.Size(616, 459);
             this.panelVisor.TabIndex = 1;
             this.panelVisor.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // btnE5
+            // btnE6
             // 
-            this.btnE5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnE5.FlatAppearance.BorderSize = 0;
-            this.btnE5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnE5.Font = new System.Drawing.Font("Consolas", 10F);
-            this.btnE5.Location = new System.Drawing.Point(3, 292);
-            this.btnE5.Name = "btnE5";
-            this.btnE5.Size = new System.Drawing.Size(167, 59);
-            this.btnE5.TabIndex = 4;
-            this.btnE5.Text = "Ejercicio 5\r\n(Condicional if)";
-            this.btnE5.UseVisualStyleBackColor = false;
-            this.btnE5.Click += new System.EventHandler(this.btnE5_Click);
+            this.btnE6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnE6.FlatAppearance.BorderSize = 0;
+            this.btnE6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE6.Font = new System.Drawing.Font("Consolas", 10F);
+            this.btnE6.Location = new System.Drawing.Point(3, 357);
+            this.btnE6.Name = "btnE6";
+            this.btnE6.Size = new System.Drawing.Size(167, 59);
+            this.btnE6.TabIndex = 5;
+            this.btnE6.Text = "Ejercicio 6(Calculadora)";
+            this.btnE6.UseVisualStyleBackColor = false;
+            this.btnE6.Click += new System.EventHandler(this.btnE6_Click);
             // 
             // Menuprincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 459);
             this.Controls.Add(this.panelVisor);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Consolas", 8.25F);
@@ -186,5 +202,6 @@ namespace CursoCsharp.Ejercicios
         private Button btnE3;
         private Button btnE4;
         private Button btnE5;
+        private Button btnE6;
     }
 }

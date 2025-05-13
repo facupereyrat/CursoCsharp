@@ -80,6 +80,12 @@
     <Compile Include="Ejercicios\Ejercicio5.Designer.cs">
       <DependentUpon>Ejercicio5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios\Ejercicio6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Ejercicio6.Designer.cs">
+      <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicios\Menuprincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\circuloGrisoscuro.png" />
+    <None Include="Resources\copia1.png" />
+    <None Include="Resources\copia.png" />
+    <None Include="Resources\circuloNaranja.png" />
+    <None Include="Resources\circulogrisclaro.png" />
+    <None Include="Resources\celular1.png" />
+    <None Include="Resources\celular.png" />
     <None Include="Resources\Captura de pantalla 2025-02-27 180744.png" />
     <None Include="Resources\Captura de pantalla 2025-02-26 210414.png" />
     <EmbeddedResource Include="Condicionales\Frmcondicionales.resx">
@@ -137,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Ejercicio5.resx">
       <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios\Ejercicio6.resx">
+      <DependentUpon>Ejercicio6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios\Menuprincipal.resx">
       <DependentUpon>Menuprincipal.cs</DependentUpon>
