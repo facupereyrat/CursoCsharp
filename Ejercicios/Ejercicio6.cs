@@ -22,6 +22,7 @@ namespace CursoCsharp.Ejercicios
         double num2;
         double resultado;
         bool reiniciar = false;
+        bool punto = true;
         private void Ejercicio6_Load(object sender, EventArgs e)
         {
             lblejercicio.Text = titulo;
@@ -54,18 +55,36 @@ namespace CursoCsharp.Ejercicios
         {
             ReiniciarProcesos();
             string numerostring = ((Button)sender).Text;
-
-            if (txtpantalla.Text == "0")
+            if (numerostring == ".")
             {
-                txtpantalla.Clear();
+                punto = true;
+                if (txtpantalla.Text.Contains("."))
+                {
+                    punto = false;
+                }
+                if (punto == true)
+                {
+                    if (txtpantalla.Text != "")
+                    {
+                        txtpantalla.Text += ".";
+                    }
+                }
             }
-            txtpantalla.Text += numerostring;
+            else
+            {
+                if (txtpantalla.Text == "0")
+                {
+                    txtpantalla.Clear();
+                }
+                txtpantalla.Text += numerostring;
+            }
+
         }
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)
             {
-                txtpantalla.Text="0";
+                txtpantalla.Text = "0";
                 reiniciar = false;
             }
         }
@@ -82,6 +101,8 @@ namespace CursoCsharp.Ejercicios
                 lblnum1.Text = txtpantalla.Text;
                 lbloperacion.Text = operacion;
                 txtpantalla.Text = "0";
+                lblnum1.Visible = true;
+                lbloperacion.Visible = true;
             }
         }
         private void AsignarDatos()
@@ -102,18 +123,105 @@ namespace CursoCsharp.Ejercicios
                 Dividir();
 
             }
+            if (lbloperacion.Text == btnmult.Text)
+            {
+                Multiplicar();
+            }
+            if (lbloperacion.Text == btnresta.Text)
+            {
+                Resta();
+            }
+            if (lbloperacion.Text == btnsuma.Text)
+            {
+                Suma();
+            }
+            if (lbloperacion.Text == btnporcent.Text)
+            {
+                Porcentaje();
+            }
+        }
+        private void Porcentaje()
+        {
+            resultado = num1 * num2 / 100;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+        }
+        private void Resta()
+        {
+            resultado = num1 - num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+        }
+        private void Suma()
+        {
+            resultado = num1 + num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+        }
+        private void Multiplicar()
+        {
+            resultado = num1 * num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
         }
         private void Limpiar()
         {
             reiniciar = true;
             lbloperacion.Text = "0";
             lblnum1.Text = "0";
+            lbloperacion.Visible = false;
+            lblnum1.Visible = false;
         }
         private void Dividir()
         {
             resultado = num1 / num2;
             txtpantalla.Text = resultado.ToString();
             Limpiar();
+        }
+
+        private void btnmult_Click(object sender, EventArgs e)
+        {
+            operacion = btnmult.Text;
+            DefinirOperacion();
+        }
+
+        private void btnresta_Click(object sender, EventArgs e)
+        {
+            operacion = btnmult.Text;
+            DefinirOperacion();
+        }
+
+        private void btnsuma_Click(object sender, EventArgs e)
+        {
+            operacion = btnsuma.Text;
+            DefinirOperacion();
+        }
+
+        private void btnporcent_Click(object sender, EventArgs e)
+        {
+            operacion = btnporcent.Text;
+            DefinirOperacion();
+        }
+
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+            Borrar();
+        }
+        private void Borrar()
+        {
+            txtpantalla.Text = "0";
+            lblnum1.Text = "0";
+            lblnum1.Text = "0";
+        }
+
+        private void btnoff_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btncopiar_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(txtpantalla.Text);
         }
     }
 }
