@@ -33,17 +33,17 @@ namespace CursoCsharp.Ejercicios
             this.label1 = new System.Windows.Forms.Label();
             this.lblejercicio = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblnum1 = new System.Windows.Forms.Label();
+            this.lbloperacion = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtpantalla = new System.Windows.Forms.TextBox();
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btndiv = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnigual = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -79,10 +79,10 @@ namespace CursoCsharp.Ejercicios
             // 
             this.panel1.BackgroundImage = global::CursoCsharp.Properties.Resources.celular1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.lblnum1);
+            this.panel1.Controls.Add(this.lbloperacion);
             this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtpantalla);
             this.panel1.Controls.Add(this.panelnumerico);
             this.panel1.Controls.Add(this.flowLayoutPanel2);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
@@ -92,27 +92,27 @@ namespace CursoCsharp.Ejercicios
             this.panel1.Size = new System.Drawing.Size(767, 531);
             this.panel1.TabIndex = 2;
             // 
-            // label3
+            // lblnum1
             // 
-            this.label3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(371, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 26);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "0";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblnum1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnum1.ForeColor = System.Drawing.Color.White;
+            this.lblnum1.Location = new System.Drawing.Point(371, 88);
+            this.lblnum1.Name = "lblnum1";
+            this.lblnum1.Size = new System.Drawing.Size(110, 26);
+            this.lblnum1.TabIndex = 4;
+            this.lblnum1.Text = "0";
+            this.lblnum1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label2
+            // lbloperacion
             // 
-            this.label2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(371, 124);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 26);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lbloperacion.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbloperacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbloperacion.Location = new System.Drawing.Point(371, 124);
+            this.lbloperacion.Name = "lbloperacion";
+            this.lbloperacion.Size = new System.Drawing.Size(110, 26);
+            this.lbloperacion.TabIndex = 4;
+            this.lbloperacion.Text = "0";
+            this.lbloperacion.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // button9
             // 
@@ -128,19 +128,19 @@ namespace CursoCsharp.Ejercicios
             this.button9.TabIndex = 0;
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtpantalla
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(326, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(155, 32);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtpantalla.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txtpantalla.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpantalla.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpantalla.ForeColor = System.Drawing.SystemColors.Menu;
+            this.txtpantalla.Location = new System.Drawing.Point(326, 153);
+            this.txtpantalla.Name = "txtpantalla";
+            this.txtpantalla.ReadOnly = true;
+            this.txtpantalla.Size = new System.Drawing.Size(155, 32);
+            this.txtpantalla.TabIndex = 3;
+            this.txtpantalla.Text = "0";
+            this.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panelnumerico
             // 
@@ -151,31 +151,32 @@ namespace CursoCsharp.Ejercicios
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Controls.Add(this.button4);
+            this.flowLayoutPanel2.Controls.Add(this.btndiv);
             this.flowLayoutPanel2.Controls.Add(this.button5);
             this.flowLayoutPanel2.Controls.Add(this.button6);
             this.flowLayoutPanel2.Controls.Add(this.button7);
-            this.flowLayoutPanel2.Controls.Add(this.button8);
+            this.flowLayoutPanel2.Controls.Add(this.btnigual);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(431, 191);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(50, 286);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
-            // button4
+            // btndiv
             // 
-            this.button4.BackgroundImage = global::CursoCsharp.Properties.Resources.circuloNaranja;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(3, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(44, 43);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btndiv.BackgroundImage = global::CursoCsharp.Properties.Resources.circuloNaranja;
+            this.btndiv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btndiv.FlatAppearance.BorderSize = 0;
+            this.btndiv.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btndiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndiv.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndiv.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btndiv.Location = new System.Drawing.Point(3, 3);
+            this.btndiv.Name = "btndiv";
+            this.btndiv.Size = new System.Drawing.Size(44, 43);
+            this.btndiv.TabIndex = 3;
+            this.btndiv.Text = "/";
+            this.btndiv.UseVisualStyleBackColor = true;
+            this.btndiv.Click += new System.EventHandler(this.btndiv_Click);
             // 
             // button5
             // 
@@ -225,21 +226,22 @@ namespace CursoCsharp.Ejercicios
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnigual
             // 
-            this.button8.BackgroundImage = global::CursoCsharp.Properties.Resources.circuloNaranja;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(3, 199);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(44, 43);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "=";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnigual.BackgroundImage = global::CursoCsharp.Properties.Resources.circuloNaranja;
+            this.btnigual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnigual.FlatAppearance.BorderSize = 0;
+            this.btnigual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnigual.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnigual.Location = new System.Drawing.Point(3, 199);
+            this.btnigual.Name = "btnigual";
+            this.btnigual.Size = new System.Drawing.Size(44, 43);
+            this.btnigual.TabIndex = 3;
+            this.btnigual.Text = "=";
+            this.btnigual.UseVisualStyleBackColor = true;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -332,14 +334,14 @@ namespace CursoCsharp.Ejercicios
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private Button button4;
+        private Button btndiv;
         private Button button5;
         private Button button6;
         private Button button7;
-        private Button button8;
+        private Button btnigual;
         private Button button9;
-        private TextBox textBox1;
-        private Label label2;
-        private Label label3;
+        private TextBox txtpantalla;
+        private Label lbloperacion;
+        private Label lblnum1;
     }
 }
