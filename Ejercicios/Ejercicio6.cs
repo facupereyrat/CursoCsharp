@@ -21,6 +21,7 @@ namespace CursoCsharp.Ejercicios
         double num1;
         double num2;
         double resultado;
+        bool reiniciar = false;
         private void Ejercicio6_Load(object sender, EventArgs e)
         {
             lblejercicio.Text = titulo;
@@ -51,6 +52,7 @@ namespace CursoCsharp.Ejercicios
 
         private void Btnnumero_Click(object sender, EventArgs e)
         {
+            ReiniciarProcesos();
             string numerostring = ((Button)sender).Text;
 
             if (txtpantalla.Text == "0")
@@ -59,7 +61,14 @@ namespace CursoCsharp.Ejercicios
             }
             txtpantalla.Text += numerostring;
         }
-
+        private void ReiniciarProcesos()
+        {
+            if (reiniciar == true)
+            {
+                txtpantalla.Text="0";
+                reiniciar = false;
+            }
+        }
         private void btndiv_Click(object sender, EventArgs e)
         {
             operacion = btndiv.Text;
@@ -88,17 +97,23 @@ namespace CursoCsharp.Ejercicios
         private void Calcular()
         {
             AsignarDatos();
-            if (lbloperacion.Text == btndiv.Text) 
+            if (lbloperacion.Text == btndiv.Text)
             {
                 Dividir();
+
             }
+        }
+        private void Limpiar()
+        {
+            reiniciar = true;
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
         }
         private void Dividir()
         {
             resultado = num1 / num2;
             txtpantalla.Text = resultado.ToString();
-            lbloperacion.Text = "0";
-            lblnum1.Text = "0";
+            Limpiar();
         }
     }
 }
